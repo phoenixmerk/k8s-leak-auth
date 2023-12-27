@@ -7,3 +7,5 @@ docker版本低于18.09将会在本地~/.docker或者~/.dockercfg存储相关的
 kubernetes将两个文件存储为secrets，脚本将检查这两项并输出secrets
 kubernetes.io/dockercfg
 kubernetes.io/dockerconfig
+## scanYaml.py
+扫描指定目录下的yaml文件，脚本将检查是否有dockercfg或者dockerconfig信息
